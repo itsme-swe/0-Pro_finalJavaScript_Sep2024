@@ -16,8 +16,13 @@ console.log(myTimeStamp);
 
 console.log(newDate.getTime());
 
-// Now converting milliseconds to seconds and ignoring decimal values.
+//🍁 Now converting milliseconds to seconds and ignoring decimal values.
 
 console.log(Date.now() / 1000); //output: 1725020440.858 in seconds
 
 console.log(Math.round(Date.now() / 1000)); // output: 1725020496 in seconds and ignoring decimal values
+
+//🍁 UseCase of toLocaleString -- toLocaleString() kae andar hum object bhi pass kar sukte hai
+newDate.toLocaleString("default", {
+  weekday: "long",
+});

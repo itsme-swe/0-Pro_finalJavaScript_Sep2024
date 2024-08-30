@@ -18,3 +18,5 @@ console.log(myDate.toJSON()); // Output: 2024-08-30T11:36:50.994Z
 console.log(myDate.toLocaleDateString()); //Output : 8/30/2024
 
 console.log(myDate.toLocaleTimeString()); // Output: 5:30:12 PM
+
+console.log(myDate.toLocaleString()); // output: 8/30/2024, 5:55:34 PM

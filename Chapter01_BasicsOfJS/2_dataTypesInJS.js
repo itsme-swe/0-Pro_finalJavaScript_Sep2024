@@ -35,3 +35,29 @@ console.log(id === anotherID); // false
 
 const bigNum = 45000000000000000n; // defining bigInt
 console.log(typeof bigNum); // bigint
+
+// Defining Array Type
+const heros = ["Hulk", "SpiderMan", "AntMan", "IronMan"];
+
+console.log(heros);
+
+// Defining Object Type
+const car = {
+  carName: "3XO",
+  carCompany: "Mahindra",
+  model: 2024,
+  engineType: ["petrol", "Diesel"],
+};
+
+console.log(car);
+
+// Defining function Type
+const customFunction = function () {
+  console.log("I function type");
+};
+
+customFunction(); // calling function
+
+console.log(typeof customFunction); // Object function »» function kae dataType ko Object function kaha jaata hai
+
+console.log(typeof heros); // object » Aur agar hum functiuon kae alava kisi bhi reference type ka typeOf karenge toh Object he return hoga.

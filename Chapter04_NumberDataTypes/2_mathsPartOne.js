@@ -27,4 +27,4 @@ console.log(Math.random() * 10 + 1); // Agar hum ('Math.random') * 10 + 1 karde 
 const min = 10;
 const max = 20;
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min); // Yaha pae hum (max - min) range kae liye kar rahe hai aur usmae phir + 1 kiya joh ki 0 case avoid kardae. Aur phir usmae min value add kardi jisae humae at least utni min value toh milaegi
+console.log(Math.floor(Math.random() * (max - min + 1)) + min); // Yaha pae hum (max - min) range kae liye kar rahe hai aur usmae phir + 1 kiya joh ki 0 case avoid kardae. Aur phir usmae min value add kardi jisae humae at least desired minimum value toh milaegi.

@@ -21,9 +21,9 @@
 
 🔸 typeOf(variable_name) -- kisi bhi variable ka type jaan nae kae liye use karte hai. e.g -- console.log(typeOf(variable_name)) 
 
-🟡 Primitive datatypes joh bhi hote hai vo ' call by value ' hotae hai matlab jub bhi hum agar inko kahi copy karte hai toh inka memory mae original reference nhi diya jaata inki copy pass hoti hai aur hum joh bhi changes karte hai vo copy mae hotae hai.
+🟡 Primitive datatypes joh bhi hote hai vo ' call by value ' hotae hai matlab jub bhi hum agar inko kahi copy karte hai toh inka memory mae original reference nhi diya jaata inki copy pass hoti hai aur hum joh bhi changes karte hai vo copy mae hotae hai. All primitive dataTypes use "Stack Memory".
 
-🟡 Non-Primitives (Reference type) inka direct reference allocate kiya jaat hai memory mae. Joh bhi changes honge toh vo original value mae bhi honge.
+🟡 Non-Primitives (Reference type) inka direct reference allocate kiya jaat hai memory mae. Joh bhi changes honge toh vo original value mae bhi honge. All the non-primitive dataTypes use "heap memory"
 
  */
 

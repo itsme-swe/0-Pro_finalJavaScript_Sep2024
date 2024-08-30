@@ -26,3 +26,12 @@
 🟡 Non-Primitives (Reference type) inka direct reference allocate kiya jaat hai memory mae. Joh bhi changes honge toh vo original value mae bhi honge.
 
  */
+
+// Defining Symbol dataType
+const id = Symbol("123");
+const anotherID = Symbol("123");
+
+console.log(id === anotherID); // false
+
+const bigNum = 45000000000000000n; // defining bigInt
+console.log(typeof bigNum); // bigint

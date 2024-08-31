@@ -25,4 +25,8 @@ console.log(jsUser.location);
 
 console.log(jsUser["location"]); // yaha pae hame key string format mae pass karni hoti hai kyuki JS by default sabhi keys ko string considered karti hai.
 
-console.log(typeof jsUser[mySymbol]);
+Object.freeze(jsUser); // ' Oject.freeze(obj_name) ' method sae hum object ko lock kar sakte hai aur kisi bhi values ko change nhi kar payenge
+
+jsUser.location = "Delhi";
+
+console.log(jsUser);

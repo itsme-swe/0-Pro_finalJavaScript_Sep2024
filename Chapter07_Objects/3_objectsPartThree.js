@@ -36,3 +36,5 @@ const assignOperator = Object.assign({}, obj1, obj2); // We can also use ' Objec
 console.log(obj3);
 
 console.log(assignOperator);
+
+console.log(newUser.hasOwnProperty("lstLoggedIn")); // return boolean value. Used to search whether the property is present or not in object

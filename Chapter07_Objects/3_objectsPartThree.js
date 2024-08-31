@@ -31,7 +31,7 @@ const obj2 = {
 
 const obj3 = { ...obj1, ...obj2 }; // By using spread operator we can merge two objects together
 
-const assignOperator = Object.assign(obj1, obj2); // We can also use ' Objects.assign(obj1, obj2) ' operator to merge the objects.
+const assignOperator = Object.assign({}, obj1, obj2); // We can also use ' Objects.assign(obj1, obj2) ' operator to merge the objects.
 
 console.log(obj3);
 

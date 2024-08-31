@@ -12,3 +12,8 @@ const { courseName, price } = course; // Syntax: const {keys} = obj_Name; Hum cu
 
 console.log(courseName); // output: NodeJS
 console.log(price); // output: 2999
+
+const { master: mName, topics: material } = course; // Hum destructure karte waqt keys ko apne hisab sae bhi name dae sukte hai
+
+console.log(material); //output: [ 'Express', 'Database', 'Middleware', 'API Building' ]
+console.log(mName);

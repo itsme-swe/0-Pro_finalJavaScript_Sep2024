@@ -1,5 +1,8 @@
 /*
 1️⃣ Difference between parameters and arguments »»» 'parameters' hote hai jo hum function ki defination mae pass karte hai aur 'arguments' jub functiopn ko call karva tae hai.
+
+2️⃣ Agar jub kbhi bhi hum function kae andar kuch return karaenge tub hamae usae new variable mae store karna padega tbhi hum usae print kara sakte hai.
+
 */
 
 function addNumbers(num1, num2) {

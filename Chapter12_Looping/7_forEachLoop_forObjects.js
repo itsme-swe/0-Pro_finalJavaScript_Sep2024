@@ -1,4 +1,4 @@
-//1️⃣ Creating an array and inserting objects as elements inside an array. Most we use this technique when we deal with databases.
+//1️⃣ Creating an array and inserting objects as elements inside an array. So here we are using 'forEach' loop to iterate over objects as elements inside an array. Mostly we use this technique when we deal with databases.
 
 const usersList = [
   {

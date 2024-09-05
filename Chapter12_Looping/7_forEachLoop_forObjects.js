@@ -1,4 +1,4 @@
-//1️⃣ Creating an array and inserting objects as elements inside an array
+//1️⃣ Creating an array and inserting objects as elements inside an array. Most we use this technique when we deal with databases.
 
 const usersList = [
   {

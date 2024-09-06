@@ -4,6 +4,10 @@
 2️⃣ ' forEach ' loop mae function bhi pass kar sukte hai par sirf function ka reference na ki usae call karenege. 
 
 3️⃣ ' forEach ' loop sirf humae elements he return nhi karta vo humae index value aur pura complete array bhi return karta hai.
+
+4️⃣ DOM mae 'HTMLCollection' aur 'NodeList' sirf array jaise dikhte hai par array hotae nhi hai. Par 'nodeList' mae hamae kuchg array ki properties milti hai jaise 'forEach loop'. 
+
+5️⃣ Agar humae sabhi array ki properties 'HTMLCollection' aur 'NodeList' par chaiye toh hamae inhae array mae convert karna padega.
 */
 
 const coding = ["JS", "Java", "Python", "Cpp", "Ruby"];

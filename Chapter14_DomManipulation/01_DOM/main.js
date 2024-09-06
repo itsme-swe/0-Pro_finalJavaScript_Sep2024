@@ -7,7 +7,7 @@
 
 4️⃣ Aub joh sabse jaada "query selector" hum use karte hai vo hai ' document.querySelector('h1') '. Yae hamae first h1 tag return kardega.
 
-5️⃣
+5️⃣ Agar humae 'HTMLCollection' aur 'NodeList' ko array mae convert karna hai toh hum use kartae hai " Array.from(HTMLcollection or NodeList) ".
 
 
 */

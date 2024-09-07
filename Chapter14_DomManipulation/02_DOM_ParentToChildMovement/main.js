@@ -36,3 +36,14 @@ parent.children[2].style.color = "orange"; // yaha pae hum index 2 pae joh eleme
 
 console.log(parent.firstElementChild); // op: Monday
 console.log(parent.lastElementChild); // op: Thursday
+
+/*
+5️⃣ Aub agar humae child element sae parent element pae jaana hai toh hum use karte hai " .parentElement " aur agar kisi bhi child element kae next element ko dekhna hai toh use karte hai " .nextElementSibling ".
+ */
+const day1 = document.querySelector(".day"); // op: Monday
+
+console.log(day1.parentElement);
+
+console.log(day1.nextElementSibling); // op: Tuesday
+
+console.log("Nodes :", parent.childNodes);

@@ -1,5 +1,5 @@
 /*
-1️⃣ " for of " Loop »» 'for of' loop ko hum kisi pae bhi use kar sukte hai jaise Array, String aur Map pae. Hum 'for of' loop ko object pae use nhi kar sukte.
+1️⃣ " for of " Loop : 'for of' loop ko hum kisi pae bhi use kar sukte hai jaise Array, String aur Map pae. Hum 'for of' loop ko object pae use nhi kar sukte.
 
 2️⃣ [ "", "", "" ] -- Adding string inside array
 

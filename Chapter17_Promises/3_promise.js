@@ -2,6 +2,8 @@
 1️⃣ Aub agar koi network call kar rahe hai aur usmae error aata hai toh hum usae 'promise()' ki help sae us error ko kuch is tarah catch karte hai. 
 
 2️⃣ Catch() method ka direct relation hota hai 'reject' method kae sath. Catch() method bhi apne andar 1 callback function laeta hai. 
+
+3️⃣ Finally() method har condition mae run hota hai chahae resolve ho ya reject ho.
 */
 
 const errorHandlingPromise = new Promise((resolve, reject) => {

@@ -1,5 +1,5 @@
 /*
-1️⃣ Joh hum 'new' keyword use karte hai vahi constructor function hota hai. Kyuki 'new' keyword sae he hum naya context banate hai. Iska matlab constructor function hamae hamesha ake naya instance deta hai. 
+1️⃣ Joh hum 'new' keyword use karte hai vahi constructor function hota hai. Kyuki 'new' keyword sae he hum naya context banate hai. Iska matlab constructor function hamae hamesha ake naya instance/object deta hai. Jub bhi hum 'new' keyword use karenge toh ake naya object create hoga '{}'.
 E.g. -- const promiseOne = new Promise();
 */
 
